@@ -57,7 +57,8 @@ jurisdiction: urn:iso:std:iso:3166#BR "Brazil"
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for `uri` and `version`.
-dependencies:  
+dependencies:
+  br.gov.saude.fhir.terminologia: 1.0.0  
   br.gov.saude.fhir.ips: 1.0.0
 
 # The global property corresponds to the IG.global property, but it
